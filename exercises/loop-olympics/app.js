@@ -24,5 +24,5 @@
 
 var numbers = [-5, -4, -3, -2, -1]
 numbers.push(0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
-for (var i = 0; i <= numbers.push; i++ )
+for (var i = 0; i < numbers.push; i++ )
 console.log(numbers[i])
