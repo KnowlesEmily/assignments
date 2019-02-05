@@ -1,0 +1,238 @@
+* {
+  box-sizing: border-box; 
+  font-size: 0px;
+}
+
+/* france */
+#blue {
+  float: left;
+  height: 300px;
+  width: 150px;
+  background-color: #1C359B;
+}
+
+#white {
+  float: left;
+  height: 300px;
+  width: 150px;
+  background-color: #FFFFFF;
+}
+
+#red {
+  display: inline-block;
+  height: 300px;
+  width: 150px;
+  background-color: #E35152;
+}
+
+/* germany */
+#black {
+  height: 100px;
+  width: 450px;
+  background-color: #000000;
+}
+
+#red2 {
+  height: 100px;
+  width: 450px;
+  background-color: #D53F2F;
+}
+
+#yellow {
+  height: 100px;
+  width: 450px;
+  background-color: #FAD557;
+}
+
+/* madagascar */
+#white {
+  display: inline-block;
+  height: 300px;
+  width: 150px;
+  background-color: #FFFFFF;
+}
+
+#red3 {
+  height: 150px;
+  width: 450px;
+  background-color: #D53F2F;
+}
+#green {
+  height: 150px;
+  width: 450px;
+  background-color: #408A53;
+}
+
+body {
+  background-color: tan
+}
+
+/* switzerland */
+
+.switzerland {
+position: relative;
+}
+
+#red4 {
+  height: 300px;
+  width: 300px;
+  background-color: #F24635;
+}
+
+#red4b {
+  float: left;
+  height: 70px;
+  width: 195px;
+  background-color: #F24635;
+}
+
+#white1 {
+  position: absolute;
+  transform: translate(200%,30%);
+  height: 190px;
+  width: 60px;
+  background-color: white;
+}
+#white2 {
+  position: absolute;
+  transform: translate(30%,200%);
+  height: 60px;
+  width: 190px;
+  background-color: white;
+}
+
+/* gambia */
+
+#red5 {
+  height: 100px;
+  width: 450px;
+  background-color: #C93F41;
+}
+
+.white3a {
+  height: 16px;
+  width: 450px;
+  background-color: white;
+}
+
+#blue1 {
+  height: 66px;
+  width: 450px;
+  background-color: #222F93;
+}
+
+#green1 {
+  height: 100px;
+  width: 450px;
+  background-color: #578445;
+}
+
+/* tonga */
+
+.tonga {
+  position: relative;
+}
+
+#red6 {
+  height: 250px;
+  width: 450px;
+  background-color: #BE372A;
+}
+
+#white4 {
+  position: absolute;
+  height: 125px;
+  width: 200px;
+  background-color: white;
+}
+
+#red7a {
+  position: absolute;
+  transform: translate(270%, 20%);
+  height: 90px;
+  width: 30px;
+  background-color: #BE372A;
+}
+
+#red7b {
+  position: absolute;
+  transform: translate(57%, 160%);
+  height: 30px;
+  width: 90px;
+  background-color: #BE372A;
+}
+
+/* japan */
+
+.japan {
+  position: relative;
+}
+
+#white5 {
+  height: 300px;
+  width: 450px;
+  background-color: white;
+}
+
+#red8 {
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color: #B93644;
+  border-radius: 50%;
+  transform: translate(60%, 25%);
+}
+
+/* greece */
+
+.greece {
+  position: relative;
+}
+
+#blue2 {
+  height: 296px;
+  width: 450px;
+  background-color: #386DB3;
+}
+
+#white8 {
+  height: 33px;
+  width: 450px;
+  background-color: white;
+  transform: translate(0%, 500%)
+}
+
+#white9 {
+  height: 33px;
+  width: 450px;
+  background-color: white;
+  transform: translate(0%, 200%)
+}
+
+#white7 {
+  height: 33px;
+  width: 300px;
+  background-color: white;
+  transform: translate(50%, 200%)
+}
+
+#white6 {
+  height: 33px;
+  width: 300px;
+  background-color: white;
+  transform: translate(50%, 100%)
+}
+
+#white10 {
+  height: 33px;
+  width: 150px;
+  background-color: white;
+  transform: translate(0%, -200%)
+}
+
+#white11 {
+  height: 165px;
+  width: 33px;
+  background-color: white;
+  transform: translate(170%, -100%);
+}

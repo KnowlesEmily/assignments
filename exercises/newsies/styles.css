@@ -4,9 +4,12 @@ h2 {
   text-align: center;
 }
 
-p {
-  width: 20%;
+p, .hrr {
+  /* width: 20%; */
   display: inline-block;
+  margin: 5px;
+  text-align: justify;
+  border-bottom: 2px solid black;
 }
 
 h3 {
@@ -27,7 +30,10 @@ span {
   display: inline-block;
   width: 30%;
   vertical-align: top;
+  margin: 10px;
+  text-align: justify;
 }
+
 
 #hr {
   border: none;
@@ -36,7 +42,7 @@ span {
   background-color: black;
 }
 
-hr {
+#hr2 {
   border: none;
   height: 5px;
   color: black;
@@ -48,5 +54,19 @@ hr {
   border: black;
   color: white;
   background-color: black;
+  display: block;
+}
+
+section {
   display: inline-block;
+  width: 20%;
+}
+
+.bold{
+  text-align:  center;
+  font-weight: bold;
+}
+
+.dotted {
+  border: dotted;
 }

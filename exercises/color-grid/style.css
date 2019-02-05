@@ -1,0 +1,49 @@
+.lightPink {
+  display: block;
+  height: 100px;
+  width: 612px;
+  background-color: #F5C6D6;
+  border: white solid 5px;
+  margin: auto;
+}
+
+.darkPink {
+  height: 100px;
+  width: 150px;
+  background-color: #EE2E84;
+  border: white solid 1px;
+  box-sizing: border-box; 
+  display: inline-block;
+}
+
+.lightBlue {
+  display: inline-block;
+  height: 100px;
+  width: 304px;
+  background-color: #85CFD8;
+  border: white solid 5px;
+  box-sizing: border-box; 
+  margin: auto;
+}
+
+.green {
+  display: inline-block;
+  height: 100px;
+  width: 454px;
+  background-color: #8DC63F;
+  border: white solid 5px;
+  box-sizing: border-box; 
+  margin: auto;
+}
+
+.orange {
+  display: inline-block;
+  height: 100px;
+  width: 154px;
+  background-color: #E76E34;
+  border: white solid 5px;
+  box-sizing: border-box; 
+  margin: auto;
+}
+
+

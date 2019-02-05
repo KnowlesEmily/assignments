@@ -72,3 +72,9 @@ var fightingObject = {
 }
 
 fightingObject.fight();
+
+// function (x, y); {
+// console.log(x + ' vs ' + y)
+// }
+
+// function(Shaq, Tim)
