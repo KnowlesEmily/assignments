@@ -1,0 +1,22 @@
+section {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-image: url("https://media.tenor.com/images/808070e01dc74d8b095f3f0ae1c3ba9d/tenor.gif")
+}
+
+h1 {
+  background-color: aliceblue;
+  text-align: center;
+  color: #9A416F
+}
+
+div {
+  background-color: aliceblue;
+  /* height: 50px; */
+  width: 50px;
+  color: #9A416F;
+  text-align: center;
+}

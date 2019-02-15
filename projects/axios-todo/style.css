@@ -1,0 +1,78 @@
+header {
+  text-align: center;
+  font-family: 'Bad Script', cursive;
+}
+
+h3 {
+  text-shadow: .5px .5px black;
+  text-decoration: underline;
+  font-family: 'Bad Script', cursive;
+}
+
+div {
+  font-family: 'Special Elite', cursive;
+}
+
+section {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+  border: 3px dotted black;
+  background-color: rgba(173, 192, 68, 0.616);
+  padding-bottom: 2.5vh;
+}
+
+IMG {
+ height: 100px;
+ width: 177px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+
+body {
+  position: relative;
+  background-image: url("https://images.pexels.com/photos/733852/pexels-photo-733852.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color: #EFF0F2;
+}
+
+form {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+}
+
+button {
+  position: absolute;
+  font-family: 'Special Elite', cursive;
+  transform: translate(140%, 10%);
+  background-color: #E8C198;
+  border-radius: 50%;
+  height: 10vh;
+  width: 10vh;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+#submit {
+  position: absolute;
+  transform: translate(0%, 50%);
+  background-color: #E8C198;
+  cursor: pointer;
+}
+
+input {
+  cursor: pointer;
+}
+
+@media (max-width: 1230px) {
+  button {
+    position: absolute;
+    transform: translate(0%, 25%);
+  }
+}

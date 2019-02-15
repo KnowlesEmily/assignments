@@ -1,0 +1,87 @@
+{
+  "appetizers": [
+    {
+      "name": "Cheese Stix",
+      "ingredients":["String Cheese", "Stick of a Juniper Tree"],
+      "description": "Classic and delicious"
+    },
+    {
+      "name": "Cow Tongue",
+      "ingredients":["Tongue of a Cow", "Salt"],
+      "description": "The snack that licks you back"
+    },
+    {
+      "name": "Eyeballs",
+      "ingredients":["Ball of an Eye", "Salt"],
+      "description": "Taste that you can see, and that can see you, too"
+    }
+  ],
+  "cold sandwiches": [
+    {
+      "name": "frosty the sandwich",
+      "ingredients":["bread", "snow", "coal", "carrot", "scarf", "top hat", "wooden pipe", "wooden sticks"],
+      "description":"A holly, jolly sandwich"
+    },
+    {
+      "name": "Slushie sandwich",
+      "ingredients":["bread", "slush", "blue raspberry flavoring"],
+      "description": "Eat your heart out 7-Eleven"
+    },
+    {
+      "name": "ice sandwich",
+      "ingredients":["bread", "sonic ice"],
+      "description": "Kinda crunchy, kinda fun"
+    }
+  ],
+  "hot sandwiches": [
+    {
+      "name": "lava sandwich",
+      "ingredients":["bread", "fire", "lava", "tapatio", "rocks"],
+      "description": "Pain with every bite"
+    },
+    {
+      "name": "boiling water sandwich",
+      "ingredients":["bread", "water"],
+      "description": "Just bread thrown into some boiling water and served in the pot"
+    },
+    {
+      "name": "Channing Tatum sandwich",
+      "ingredients":["Channing Tatum", "bread"],
+      "description": "The best meat lovers sandwich you could ask for. Ayeeeee que caliente!!!"
+    }
+  ],
+  "desserts": [
+    {
+      "name": "tres leches",
+      "ingredients":["Whole milk", "sweetened condensed milk", "evaporated milk"],
+      "description":"very misleading, not the actual cake. Just 3 different milky liquids"
+    },
+    {
+      "name": "dos leches",
+      "ingredients":["goat milk", "Human milk"],
+      "description": "gross milky liquids, possibly a type of soap?"
+    },
+    {
+      "name": "pan y popo",
+      "ingredients":["bread rolls", "coconut milk"],
+      "description": "honestly the only edible thing on this menu"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "water",
+      "ingredients":["hydrogen", "hydrogen", "oxygen"],
+      "description": "wet"
+    },
+    {
+      "name": "agua",
+      "ingredients":["hydrogen", "hydrogen", "oxygen", "coca-cola"],
+      "description": "Spanish water, also wet"
+    },
+    {
+      "name": "agua natural",
+      "ingredients":["hydrogen", "hydrogen", "oxygen", "lead"],
+      "description": "Spanish tap water, also wet"
+    }
+  ]
+}
