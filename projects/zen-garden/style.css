@@ -1,0 +1,525 @@
+.fancier {
+  font-family: font2;
+  color: rgba(255, 255, 255, 0.377);
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 1.75;
+}
+
+.no {
+  border-top: none;
+  padding-top: none;
+}
+
+#links1 {
+  overflow: auto;
+  background: rgb(254, 255, 253);
+}
+
+#links1 li {
+  float: left;
+  width: 50%;
+}
+
+#links2 li {
+  float: left;
+  width: 50%;
+}
+
+.me {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.titulo {
+  font-family: font2;
+  color: #c0cac3;
+}
+
+.help {
+  font-family: font1;
+  text-transform: uppercase;
+  display: block;
+  line-height: 20px;
+  /* padding-top: 3%;
+  padding-bottom: 3%; */
+}
+
+#yo {
+  height: 260px;
+  width: 100%;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+#links2 {
+  overflow: auto;
+  background-color: rgba(138, 188, 159, 0.5);
+  margin-bottom: 0px;
+  margin-top: 0px;
+  /* border-top: solid 1px #32505038;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, auto); */
+  /* width: 50%; */
+  /* height: max-content; */
+}
+
+#links2 {
+  /* height: auto; */
+  width: 100%;
+}
+
+#vcs {
+  grid-area: vcs;
+  border-top: none;
+  padding-top: 18px;
+  padding-bottom: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#cs {
+  grid-area: cs;
+  border-top: none;
+  padding-top: 18px;
+  padding-bottom: 6px;
+  text-align: center;
+  margin-top: 0px;
+  /* margin-bottom: 0px; */
+}
+
+#faq {
+  grid-area: faq;
+  border-bottom: solid 1px #3250504d;
+  ;
+  padding-bottom: 13px;
+  padding-top: 13px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#sab {
+  grid-area: sab;
+  border-bottom: solid 1px #3250504d;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#tra {
+  grid-area: tra;
+  border-top: none;
+  padding-top: 6px;
+  padding-bottom: 18px;
+  /* margin-top: 0px; */
+  margin-bottom: 0px;
+}
+
+li {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.25;
+  border-top: solid 1px #3250504d;
+  list-style: none;
+  line-height: .5;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #325050;
+}
+
+
+* {
+  font-size: 13px;
+  color: #325050;
+  font-family: font3;
+  line-height: 2;
+}
+
+@font-face {
+  font-family: zen-font;
+  src: url(verdemoderna.woff);
+}
+
+@font-face {
+  font-family: font1;
+  src: url(font1);
+}
+
+@font-face {
+  font-family: font2;
+  src: url(font2);
+}
+
+@font-face {
+  font-family: font3;
+  src: url(font3);
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: font1;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  line-height: 1.5;
+}
+
+#vad:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+  cursor: pointer;
+}
+
+#vad::after {
+  right: 0px;
+  content: ">";
+  color: rgba(255, 255, 255, 0.699);
+  font-family: zen-font;
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  font-size: 44px;
+  line-height: 70px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#vad:hover::after {
+ cursor: pointer;
+}
+
+/* it's still giving it margin right even though it's specified that it should have 0px */
+
+/* when you hover over the arrow it still does the background shading for #vad */
+
+#vad {
+  font-size: 16px;
+  font-family: font1;
+  color: rgba(255, 255, 255, 0.658);
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 50px;
+  width: 258px;
+  margin-left: 45px;
+  margin-right: 0px;
+}
+
+div#article3.art {
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+div#article2.bamboo.art {
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+
+}
+
+div#article1.art {
+  padding: 40px;
+  padding-top: 200px;
+  padding-bottom: 0px;
+
+}
+
+h2 {
+  font-size: 17px;
+  font-family: font2;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+#htwo {
+  font-size: 14px;
+  font-family: font2;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.p {
+  font-size: 13px;
+  color: #325050;
+  font-family: font3;
+  line-height: 2;
+}
+
+.po {
+  color: #4EA3C5;
+
+}
+
+h3 {
+  line-height: 1.1;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+div>div {
+  padding: 10px
+}
+
+
+.text {
+  display: none;
+}
+
+.blue {
+  color: #4EA3C5;
+}
+
+.blue:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#subheader {
+  /* padding: 0px; */
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.247);
+  z-index: 1;
+  top: 180px;
+}
+
+.pls {
+  /* position: absolute; */
+}
+
+#header {
+  border-top: solid 10px rgba(19, 67, 71, 0.9);
+  text-align: center;
+  position: absolute;
+  background-attachment: fixed, fixed, fixed, scroll;
+  background-image: url(contours-opaque.png), url(noise.png), url(gridlines.png), url(huntington.jpg);
+  background-position: 0 0, 0 0, -5px -25px, 0 50%;
+  background-repeat: repeat, repeat, repeat, no-repeat;
+  background-size: auto, auto, auto, cover;
+  height: 220px;
+  display: grid;
+  /* grid-template-columns: 1fr; */
+  z-index: 1;
+  width: 100%;
+}
+
+.logogogo {
+  padding-bottom: 0px;
+  padding-top: 10px;
+  height: 50px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+}
+
+.bamboo {
+  background-color: rgba(138, 188, 159, 0.5);
+  background-attachment: scroll, scroll, fixed;
+  background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+  background-repeat: repeat, repeat, no-repeat;
+  background-size: auto, auto, cover;
+  /* height: 300px; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+}
+
+.bambooz {
+  background-color: rgba(138, 188, 159, 0.5);
+  background-attachment: fixed;
+  background-image: url(bamboo.png);
+  background-repeat: repeat;
+  background-size: auto;
+  /* height: 300px; */
+  /* display: grid; */
+  /* grid-template-columns: 1fr; */
+}
+
+#footer1 {
+  background-image: url(contours@2x.png), url(gridlines.png), url(noise.png), url(koi.jpg);
+  background-size: 50% auto, auto, auto, cover;
+  padding: 15px;
+  /* margin: 0px; */
+}
+
+.fancy {
+  font-family: font3;
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 25px;
+  text-align: center;
+}
+
+.fancy:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+#footer2 {
+  background: #134347;
+  padding: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+
+.headerz {
+  font-family: font1;
+  font-size: 20px;
+}
+
+.buttons {
+  color: rgba(255, 255, 255, 0.582);
+  font-size: 36px;
+  font-variant: normal;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: zen-font;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+#five::before {
+  content: "5";
+}
+
+#three {
+  content: "3";
+}
+
+#cc {
+  content: "c";
+}
+
+#as {
+  content: "a";
+}
+
+#git {
+  content: "g";
+}
+
+
+
+@media (min-width: 1130px) {
+  #pls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "hdr hdr shdr"
+      "a1 a1 l1"
+      "a2 a2 l2"
+      "a3 a3 ."
+      "f1 f1 f1"
+      "f2 f2 f2";
+    /* height: 160px; */
+  }
+
+  #links1 li {
+    float: none;
+  }
+
+  .hey {
+    border-top: solid 1px #d9e3dc;
+  }
+
+  li.help.me {
+    display: block;
+  }
+
+  .bambooz {
+    background-color: rgba(138, 188, 159, 0.5);
+    background-attachment: scroll, scroll, fixed;
+    background-image: url(contours-opaque.png), url(gridlines-opaque.png), url(bamboo.png);
+    background-repeat: repeat, repeat, no-repeat;
+    background-size: auto, auto, cover;
+    /* height: 300px; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr; */
+  }
+
+  .logogogo {
+    display: flex;
+    justify-content: center;
+    height: 0px;
+  }
+
+  #header {
+    grid-area: hdr;
+    padding-top: 0px;
+    width: 100%;
+  }
+
+  #subheader {
+    grid-area: shdr;
+    height: 230px;
+    top: 0px;
+    /* width: 33%; */
+  }
+
+  #article1 {
+    grid-area: a1;
+  }
+
+  #article2 {
+    grid-area: a2;
+  }
+
+  #article3 {
+    grid-area: a3;
+  }
+
+  #links1 {
+    grid-area: l1;
+  }
+
+  #links2 {
+    grid-area: l2;
+  }
+
+  #footer1 {
+    grid-area: f1;
+  }
+
+  #footer2 {
+    grid-area: f2;
+  }
+
+  .text {
+    display: inline;
+  }
+
+  .texty::before {
+    content: "D";
+    font-family: zen-font;
+    color: #a9b995;
+    background: #d9e1cd;
+  }
+
+  .texty {
+    font-family: font1;
+    color: #809b7e;
+  }
+}
