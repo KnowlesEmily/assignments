@@ -165,6 +165,8 @@ li {
 
 body {
   margin: 0px;
+  width: 100%;
+
 }
 
 h1 {
@@ -199,7 +201,9 @@ h1 {
 }
 
 #vad:hover::after {
- cursor: pointer;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.24);
+  z-index: 5;
 }
 
 /* it's still giving it margin right even though it's specified that it should have 0px */
@@ -230,7 +234,7 @@ div#article2.bamboo.art {
   padding: 40px;
   padding-top: 30px;
   padding-bottom: 0px;
-
+  /* width: 100%; */
 }
 
 div#article1.art {
@@ -421,6 +425,20 @@ div>div {
   content: "g";
 }
 
+/* @media (min-width: 500px) {
+  #header {
+    height: 220;
+  }
+}
+
+
+
+
+
+
+
+ */
+
 
 
 @media (min-width: 1130px) {
@@ -431,18 +449,137 @@ div>div {
       "hdr hdr shdr"
       "a1 a1 l1"
       "a2 a2 l2"
-      "a3 a3 ."
+      "a3 a3 bl"
       "f1 f1 f1"
       "f2 f2 f2";
     /* height: 160px; */
+  }
+
+  #five::before {
+    content: "5";
+    font-size: 72px;
+}
+
+#three {
+  content: "3";
+  font-size: 72px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+#cc {
+  content: "c";
+  font-size: 72px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#as {
+  content: "a";
+  font-size: 72px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#git {
+  content: "g";
+  font-size: 72px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+  .fancier {
+    padding-top: 90px;
+    font-size: 32px;
+}
+
+.fancy {
+  font-size: 32px;
+}
+
+  li {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.25;
+    border-top: solid 1px #c6d1c9de;
+    list-style: none;
+    line-height: .5;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #325050;
+}
+
+  div#article1.art {
+    padding: 40px;
+    padding-top: 200px;
+    padding-left: 130px;
+    padding-right: 120px;
+    padding-bottom: 0px;
+}
+
+div#article2.bamboo.art {
+  padding-left: 130px;
+  padding-right: 120px;
+}
+
+div#article3.art {
+  padding-left: 130px;
+  padding-right: 120px;
+}
+
+  
+#blank {
+  grid-area: bl;
+  background-color: rgb(220, 236, 233);
+}
+
+
+  #htwo {
+    font-size: 27px;
+    font-family: font2;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+  .logo {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-top: 233px;
+    margin-left: 90px;
+  }
+
+  div#article1.art {
+    padding-top: 20px;
   }
 
   #links1 li {
     float: none;
   }
 
+  #links2 li {
+    float: none;
+  }
+
+  li#cs.help.me {
+    text-align: left;
+    padding-bottom: 13px;
+    border-bottom: solid 1px #3250504d;
+    border-top: solid 1px #3250504d;
+    margin-bottom: 0px;
+}
+
+  li#sab.help.me {
+    text-align: left;
+  }
+
+  li#faq.help.me {
+    border-top: none;
+  }
+
   .hey {
-    border-top: solid 1px #d9e3dc;
+    border-top: solid 1px #c6d1c9de;
   }
 
   li.help.me {
@@ -460,23 +597,47 @@ div>div {
     /* grid-template-columns: 1fr; */
   }
 
+
   .logogogo {
     display: flex;
     justify-content: center;
     height: 0px;
+    align-items: center;
+  }
+
+  h1 {
+    margin-right: 500px;
+    margin-bottom: -200px;
+    font-size: 50px;
+
+  }
+
+  h2 {
+    margin-bottom: -95px;
+    font-size: 27px;
+    margin-right: 400px;
   }
 
   #header {
     grid-area: hdr;
     padding-top: 0px;
     width: 100%;
+    height: 290px;
   }
 
   #subheader {
     grid-area: shdr;
     height: 230px;
     top: 0px;
+    height: 290px;
+    background-color: rgba(51, 47, 47, 0.062);
+    display: inline-flex;
     /* width: 33%; */
+  }
+
+  #vad:hover {
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
   }
 
   #article1 {
@@ -493,6 +654,7 @@ div>div {
 
   #links1 {
     grid-area: l1;
+    background-color: rgb(220, 236, 233);
   }
 
   #links2 {
@@ -501,14 +663,23 @@ div>div {
 
   #footer1 {
     grid-area: f1;
+    height: 320px;
+    /* padding-top: 95px; */
+    /* padding-bottom: 95px; */
+    padding-left: 150px;
+    padding-right: 150px;
   }
 
   #footer2 {
     grid-area: f2;
-  }
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
   .text {
     display: inline;
+    padding-left: 10px;
+    padding-right: 120px;
   }
 
   .texty::before {
@@ -522,4 +693,11 @@ div>div {
     font-family: font1;
     color: #809b7e;
   }
+
+* {
+    font-size: 16px;
+    color: #325050;
+    font-family: font3;
+    line-height: 2;
+}
 }
