@@ -1,8 +1,12 @@
 import React from 'react';
-import Home from 'home';
-import About from 'about';
-import Services from 'services';
-import Navbar from 'navbar';
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Product from './Products';
+import './App.css';
+import {Switch, Route} from "react-router-dom";
 
 const App = () => {
   return (
@@ -13,6 +17,7 @@ const App = () => {
         <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/services" component={Services}/>
+        {/* <Route path="/services/:_id" component={Product} /> */}
       </Switch>
 
       <Footer />

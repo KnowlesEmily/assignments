@@ -1,0 +1,74 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+.aboutMe {
+  display: grid;
+  grid-column: 1/ span 2;
+  border: 2px solid black;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 100px;
+}
+
+button {
+  border: 2px solid black;
+  /* margin-left: 46.5%; */
+  margin-bottom: 30px;
+  width: 80px;
+  border-radius: 5px;
+  grid-column: 1/ span 2;
+  margin: auto;
+
+
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+input {
+  border: 2px solid black;
+  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  height: 15px;
+  /* margin-left: 0px;
+  margin-right: 0px; */
+}
+
+.diver {
+  border: 2px solid black;
+  border-radius: 7px;
+}
+
+.butt {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  border: 2px solid black;
+  border-radius: 7px;
+  margin-top: 20px
+}
+
+header {
+  position: absolute;
+  background-color: #6F6F6F;
+  width: 100%;
+  border-bottom: solid #6F6F6F 1px;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
