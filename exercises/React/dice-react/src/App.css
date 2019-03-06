@@ -1,0 +1,21 @@
+@font-face {
+  font-family: dice;
+  src: url(dice.ttf);
+}
+
+.dicey {
+  display: inline-block;
+  font-family: dice;
+  margin: 10px;
+  font-size: 80px;
+}
+
+button {
+  background-image: url(https://s3.amazonaws.com/sobrosimages/wp-content/uploads/2018/07/18145042/shaq.jpg);
+  background-size: cover;
+  height: 72px;
+  width: 130px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.733) 2px 2px;
+  cursor: pointer;
+}

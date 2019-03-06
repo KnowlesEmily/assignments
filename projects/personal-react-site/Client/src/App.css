@@ -1,0 +1,124 @@
+@font-face {
+  font-family: jedi;
+  src: url(starjedi.ttf);
+}
+
+@font-face {
+  font-family: hollow;
+  src: url(starjhol.ttf);
+}
+
+@font-face {
+  font-family: first;
+  src: url(first_order/first.TTF);
+}
+
+body {
+  margin: 0px;
+}
+
+h1 {
+  font-family: hollow;
+  color: yellow;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+
+.intro{
+  color: yellow;
+  font-family: jedi;
+  width: 77%;
+  margin: auto;
+  font-size: 20px;
+}
+
+.kraken {
+  margin: auto;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: double yellow;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+div.home {
+  background-image: url(https://www.chromethemer.com/wallpapers/chromebook-wallpapers/download/star-wars-rogue-one-3840x2160.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: 1072px;
+  /* margin: 0px; */
+}
+
+.nav {
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container {
+  font-family: first;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.mapLang {
+  color: black;
+  text-shadow: rgba(255, 255, 0, 0.712) 2px 2px 20px;
+  text-align: center;
+  /* border: double; */
+}
+
+.langPage {
+  background-color: rgba(255, 255, 255, 0.705);
+  box-shadow: rgba(0, 0, 0, 0.459) 7px 7px 8px 2px;
+  border: double;
+  padding-top: 5px;
+}
+
+html {
+  background: url("https://mapcollection.files.wordpress.com/2012/06/map-of-middle-earth.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}
+
+.linkHome {
+ color: yellow;
+ font-family: jedi;
+ font-size: 20px;
+}
+
+.langName {
+
+}
+
+.submit {
+
+}
+
+.para {
+
+}
+
+.textArea {
+  
+}

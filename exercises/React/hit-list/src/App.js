@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // import './App.css';
 import axios from "axios"
-// const axios = require('axios')
+const Axios = require('axios')
 
 
 class App extends Component {
@@ -23,11 +23,11 @@ class App extends Component {
 
     }
 
-    // Axios.get("https://s3.amazonaws.com/v-school/data/hitlist.json").then(response => {
-    //   this.setState({
-    //     people: response.data.results
-    //   })
-    // })
+    Axios.get("https://s3.amazonaws.com/v-school/data/hitlist.json").then(response => {
+      this.setState({
+        people: response.data.results
+      })
+    })
   }
 
   async getPeeps() {
