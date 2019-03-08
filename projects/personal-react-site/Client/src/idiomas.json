@@ -1,9 +1,4 @@
 [{
-  "name": "boston",
-  "imgUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6d/RedSoxPrimary_HangingSocks.svg/1200px-RedSoxPrimary_HangingSocks.svg.png",
-  "_id": "111"
-},
-{
   "name": "braille",
   "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/21/644405_disabled_512x512.png",
   "_id": "222" 
@@ -17,16 +12,6 @@
   "name": "dothraki",
   "imgUrl": "https://vignette.wikia.nocookie.net/vsbattles/images/f/fa/Khal.png/revision/latest?cb=20160306092048",
   "_id": "444"
-},
-{
-  "name": "ermagerd",
-  "imgUrl": "https://pngimage.net/wp-content/uploads/2018/05/ermahgerd-png-265x200.png",
-  "_id": "555"
-},
-{
-  "name": "groot",
-  "imgUrl": "https://66.media.tumblr.com/b9d0608c2bd65b579b6577eab5e63f1f/tumblr_ou4gsa6PYE1rxkqbso1_400.png",
-  "_id": "660" 
 },
 {
   "name": "mandalorian",
