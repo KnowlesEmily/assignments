@@ -98,7 +98,7 @@ h1 {
   margin-top: 30px;
 }
 
-.about {
+.contact {
   background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/01/28/239783/bb85e1ee2ec5bb375f14a055d8fef147-700.jpg);
   background-position-x: right;
   background-position-y: bottom;
@@ -107,6 +107,10 @@ h1 {
   background-color: black;
   height: 892px;
   overflow: hidden;
+}
+
+.contactTitle {
+  color: yellow;
 }
 
 .container {
@@ -167,6 +171,7 @@ img {
  font-size: 20px;
  background-color: black;
  z-index: 5;
+ letter-spacing: 4px;
 }
 
 .details {
@@ -183,7 +188,8 @@ img {
   padding-top: 0px;
   margin-top: 15px;
   margin-bottom: 15px;
-  font-size: 60px
+  font-size: 60px;
+  letter-spacing: 5px;
 }
 
 .submit {
@@ -209,6 +215,7 @@ img {
 }
 
 .textArea {
+  text-align: center;
   margin-top: 15px;
   border: none;
   box-shadow: 2px 2px 20px yellow, -2px -2px 20px yellow;
@@ -219,11 +226,16 @@ textarea:focus {
   outline: none;
 }
 
-button:focus {
+.button {
+  border: double yellow;
+  padding: 20px;
+}
+
+.button:focus {
   outline: none;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
 }
 
@@ -232,11 +244,77 @@ button:hover {
   transform: translateY(5px);
 }
 
+.submission {
+  font-family: jedi;
+  letter-spacing: 3px;
+  color: yellow;
+  border: yellow double;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin: auto;
+  height: 170px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  width: 30%;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 200px;
+}
+
+.anotherSub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 20px;
+  height: 50px;
+  width: 300px;
+  border: none;
+  box-shadow: 2px 2px 20px yellow, -2px -2px 20px yellow;
+  background-color: hsla(60, 100%, 50%, 0.459);
+  text-align: center;
+}
+
+.input::placeholder {
+  color: rgba(0, 0, 0, 0.795);
+  text-align: center;
+  font-weight: 500;
+}
+
 @media (max-width: 1540px) {
   .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+  }
+
+  .form {
+    display: grid;
+    width: 40%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 20px;
   }
 }
 
@@ -246,6 +324,21 @@ button:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
   }
+
+  .form {
+    display: grid;
+    width: 50%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 15px;
+  }
+
 }
 
 @media (max-width: 745px) {
@@ -258,6 +351,25 @@ button:hover {
   .star-wars {
     font-size: 250%;
   }
+
+  .form {
+    display: grid;
+    width: 100%;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 200px;
+  }  
+
+  .submission {
+    font-size: 13px;
+  }
+
+  .anotherSub {
+    width: 30%;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -269,5 +381,12 @@ button:hover {
     font-size: 45px;
   }
 
+  .submission {
+    font-size: 11px;
+  }
+
+  .anotherSub {
+    width: 33%;
+  }
 
 }

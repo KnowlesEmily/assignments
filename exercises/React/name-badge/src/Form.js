@@ -17,7 +17,6 @@ class Form extends Component {
       badges: []
     }
   }
-
   
   handleChange = e => {
     const {name,value} = e.target
@@ -42,7 +41,8 @@ class Form extends Component {
         birth: "",
         phone: "",
         favFood: "",
-        about: "",}
+        about: "",
+      }
     }
   })
 }

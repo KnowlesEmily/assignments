@@ -1,6 +1,6 @@
 [{
-  "name": "braille",
-  "imgUrl": "https://www.shareicon.net/data/256x256/2015/09/21/644405_disabled_512x512.png",
+  "name": "gungan",
+  "imgUrl": "https://vignette.wikia.nocookie.net/starwars/images/0/02/Jar_Jar_SWSB.png/revision/latest?cb=20160910034613",
   "_id": "222" 
 },
 {
@@ -24,8 +24,8 @@
   "_id": "888"
 },
 {
-  "name": "numbers",
-  "imgUrl": "https://s3.amazonaws.com/peoplepng/wp-content/uploads/2018/04/02080806/Numbers-PNG-Transparent.png",
+  "name": "sith",
+  "imgUrl": "https://cdn.playbuzz.com/cdn/7f6471be-0a4f-42ec-8b51-efeb3891585c/89b52d38-4fa9-45b5-8ede-1fe19dc8ec4b.jpg",
   "_id": "999"
 },
 {
