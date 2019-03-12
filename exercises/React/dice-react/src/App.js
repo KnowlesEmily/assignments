@@ -5,11 +5,11 @@ class App extends Component {
   constructor(){
     super()
     this.state = {
-      die1: Math.floor((Math.random()*6)+1),
-      die2: Math.floor((Math.random()*6)+1),
-      die3: Math.floor((Math.random()*6)+1),
-      die4: Math.floor((Math.random()*6)+1),
-      die5: Math.floor((Math.random()*6)+1)
+      die1: "0"/*Math.floor((Math.random()*6)+1)*/,
+      die2: "0"/*Math.floor((Math.random()*6)+1)*/,
+      die3: "0"/*Math.floor((Math.random()*6)+1)*/,
+      die4: "0"/*Math.floor((Math.random()*6)+1)*/,
+      die5: "0"/*Math.floor((Math.random()*6)+1)*/
     }
   }
 
