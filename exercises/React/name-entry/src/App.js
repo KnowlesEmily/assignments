@@ -41,8 +41,18 @@ class App extends Component {
 
     return (
       <form onSubmit={this.handleSubmit}>
-      <input type="text" name="firstName" placeholder="First Name" onChange={this.handleChange} value={this.state.firstName} />
-      <input type="text" name="lastName" placeholder="Last Name" onChange={this.handleChange} value={this.state.lastName} />
+      <input 
+        type="text" 
+        name="firstName" 
+        placeholder="First Name" 
+        onChange={this.handleChange} 
+        value={this.state.firstName} />
+      <input 
+        type="text" 
+        name="lastName" 
+        placeholder="Last Name" 
+        onChange={this.handleChange} 
+        value={this.state.lastName} />
       <h1>{this.state.firstName} {this.state.lastName}</h1>
       <button>Submit</button>
 
